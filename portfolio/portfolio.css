@@ -1,0 +1,299 @@
+ *{ 
+    background-color:#1b1b1b;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+#header h2{
+    color:blue;
+    text-shadow: 2px 2px 2px white;
+    font-size: 40px;
+}
+#header h2:hover{
+    color:white;
+    text-shadow: 2px 2px 2px blue;
+    font-size: 60px;
+    margin-left: 10px;
+    transition: 3s;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    transition: 0.3s ease;
+    padding: 9px;
+    font-family: Arial;
+}
+header ul li a::before{
+    content: '';
+    position: absolute;
+    background-color: red;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 3px;
+    transition: 0.4s ease;
+}
+header ul li a:hover,.active{
+    color: red;
+}
+header ul li a:hover::before{
+    width: 100%;
+}
+#about{
+    height: 400px;
+}
+.logo  i{
+    color: red;
+    margin-right: 5px;
+    font-size: 25px;
+}
+ h2{
+    font-family: arial;
+}
+.left{
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.left h1{
+    font-size: 40px;
+    color: white;
+}
+.left h1 span{
+    color: rgba(255, 0, 0, 0.912);
+    font-size: 40px;
+}
+.left  p{
+color: green;
+line-height: 22px 0;
+width: 50%;
+transition: 3ms;
+margin-left: 15px;
+font-family: arial;
+font-size: 17px;
+}
+.social{
+    margin-top: 20px;
+}
+.social a i{
+font-size: 30px;
+color: white;
+margin-right: 10px;
+
+}
+.social a:hover i{
+    color: red;
+    transition: scale(1.09);
+}
+.right{
+    height: 60%;
+    width: 35%;
+    position: absolute;
+    bottom: 130px;
+    right: 100px;
+}
+ .right img{
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    left: 60%;
+    top: 24%;
+    transform: translate(-50%);
+    border-radius: 50%;
+ }
+.right::before{
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 350px;
+    height: 300px;
+    border-radius: 50% 50% 0 0;
+    transition:0.4s ease;
+    margin-left: 20%;
+    margin-top: 20%;
+
+}
+.button a{
+    background-color: blue;
+    color: white;
+}
+.button{
+    margin-top: 80px;
+}
+.button a:hover{
+    background-color: white;
+}
+#skill{
+height: 550px;
+}
+#skill h1{
+    color: white;
+    margin-bottom: 40px;
+    font-family: arial;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px blue;
+}
+.photo{
+    display: flex;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 100%;
+}
+.x:hover {
+    transform: translateY(50px);
+    transition: 0.3s ease;
+}
+#skill ul{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+#skill ul li{
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px 2px white;
+    list-style: disc;
+}
+.back{
+    margin-left: 40%;
+    border: none;
+}
+.back a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+#project{
+    height: 100%;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    font-family: arial;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 2px red;
+}
+.titlename h1{
+    color: pink;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: arial;
+    margin-bottom: 3px;
+    text-shadow: 2px 2px 2px white;
+}
+.titlename span{
+    color:blue;
+    font-size: 40px;
+    font-family: arial;
+    margin-right: 20px;
+}
+.descriptions p{
+    color: white;
+    margin-left: 13%;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-family: arial;
+}
+.cab img{
+    height: 35%;
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+.cabBtn {
+    margin-left: 80%;
+   background-color: white;
+   height: 30px;
+   width: 100px;
+   border-radius: 30px;
+   margin-top: 40px;
+   box-shadow: 2px 2px 2px pink;
+}
+.cabBtn a{
+    text-decoration: none;
+  color: black;
+  background-color: white;
+}
+#prosnal{
+    height: 520px;
+}
+#prosnal div{
+    color: white;
+}
+.contact h1{
+    margin-top: 8%;
+    font-family: Impact;
+    margin-left: 10%;
+}
+.address{
+    margin-top: 5%;
+}
+.address h2{
+    font-size: 20px;
+    color: blue;
+    margin-left: 10%;
+}
+.address p{
+    margin-left: 13%;
+    margin-top: 5px;
+    color: green;
+}
+.address img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+#prosnal dl{
+    color: white;
+    margin-top: 30px;
+    margin-left: 10%;
+
+}
+.whatsapp{
+    color: green;
+    height: 30px;
+    width: 30px;
+}
+#prosnal button{
+    
+    margin-left: 90%;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: aqua;
+    width: 70px;
+}
+#prosnal a{
+    text-decoration: none;
+    background-color: aqua;
+}
+
+
+
+
+
+
+

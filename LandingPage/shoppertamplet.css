@@ -1,0 +1,511 @@
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 7fr 3fr;
+    justify-content: space-between;
+    font-family: bolt;
+    font-size: 30px;
+    background-color:whitesmoke;
+    color:#010101;
+    padding: 15px;
+    width: 100%;
+}
+header span{
+    margin-right: 20px;
+}
+.header-title{
+    font-size: 50px;
+    font-weight:bold;
+}
+.hitems nav{
+    margin-top: 10px;
+    margin-left:100px;
+}
+.hicons{
+    margin-top: 10px;
+}
+ article{
+    background-color: rgba(0, 183, 255, 0.966);
+    text-align: center;
+    font-size: 20px;
+    font-family: bolt;
+    padding: 12px;
+    margin-top: 30px;
+}
+   article .fa-bolt-lightning{
+   color: rgb(159, 218, 32);
+    font-size: 15px;
+    
+  }
+ main{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 10px;
+ }
+ .women{
+    background-image: url(../src/women.jpg);
+    background-size: cover;
+ }
+ .men{
+    background-image: url(../src/man.jpg);
+    background-size: cover;
+ }
+ .kids{
+    background-image: url(../src/kid.webp);
+    background-size: cover;
+ }
+ .women, .men, .kids{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.7; 
+ }
+ .title{
+    font-size: 50px;
+    color: white;
+    text-shadow: black;
+    font-weight: bold;
+ }
+ .women:hover{
+    opacity: 1;
+ }
+ .men:hover{
+    opacity: 1;
+ }
+ .kids:hover{
+    opacity: 1;
+ }
+ button{
+   height: 40px;
+   width: 150px;
+   margin-top: 150px;
+ }
+ .features{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 10px;
+ }
+ section{
+    height: 400px;
+ }
+ .d-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .d-title span{
+    margin-right: 20px;
+    color: rgb(17, 0, 255);
+    margin-right: 10px;
+ }
+ .main-banner{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .main-title{
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 10px;
+ }
+ .sub-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bolt;
+ }
+ .main-text{
+    font-size: 20px;
+    color: gray;
+ }
+ .banner-row-1{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    height: 400px;                     
+
+ }
+ .row-1-left{
+    background-image:url(../src/bagscollection.jpg);
+    background-size: cover;
+    margin-left: 40px;
+ }
+ .bags-title{
+   color:white;
+   margin-top: 80%;
+   font-size: 20px;
+ }
+
+ .row-1-right{
+    background-image: url(../src/Shirtshop2.jpg);
+    background-size: cover;
+    margin-right: 40px;
+    margin-left: 30px;
+    position: relative;
+ }
+ .title-shirts{
+   margin-top: 35%;
+   font-size: 20px;
+   font-family: arial;
+ }
+ .offer{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    color: white;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(255, 0, 140);
+    border-radius: 60px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+ }
+ .row-1-right, .row-1-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 50px;
+ }
+ .row-1-left{
+ color:white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ }
+ .row-1-right{
+    color:#010101;
+    font-family: arial;
+    font-weight: bold;
+ }
+ .title-shirts,.arrow{
+    margin-right: 330px;
+ }
+ .banner-row-2{
+    display: grid;
+    grid-template-columns:8fr 4fr;
+    height: 400px;
+ } 
+ .row-2-left{
+    background-image:url(../src/shreeee.jpg);
+    background-size: cover;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+ }
+ .row-2-right{
+    background-image: url(../src/sweeter.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 30px;
+ }   
+ .row-2-right, .row-2-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 50px;
+ }  
+ .row-2-left{
+    color:black;
+    background-color: black;
+    
+ }
+ .row-2-right{
+    color:#010101;
+    background-color:blueviolet ;
+ } 
+ .sub2-title{
+    margin-right:200PX;
+    margin-top: 200PX;
+    font-size: 50px;
+    font-weight:bold;
+ }
+ .seller{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial;
+ }
+ .main-title1{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+ }
+ .sub-title1{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 10px;
+ }
+ .banner-row-3{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+ }
+ .first{
+    background-image: url(../src/midheal2.jpg);
+    background-size: cover;
+    margin-right: 10px;
+
+ }
+ .second{
+    background-image: url(../src/dressesr.jpg);
+    background-size: cover;
+ }
+ .third{
+    background-image: url(../src/sneakers.jpg);
+    background-size: cover;
+    margin-left: 20px;
+ }
+ .fourth{
+    background-image: url(../src/cotton.jpg);
+    background-size: cover;
+    margin-left: 20px;
+ }
+ .features-2{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding-left: 80px;
+    font-size: 20px;
+ }
+ .a2{
+   font-size: 13px;
+   margin-top: 8px;
+   margin-bottom: 5px;
+   font-family: arial;
+ }
+ .a1{
+   color: gray;
+   font-size: 15px;
+ }
+ .banner-row-4{
+   height: 200px;
+   display: grid;
+   grid-template-columns: 3fr 3fr 3fr 3fr;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-top: 40px;
+ }
+ .five{
+    background-image: url(../src/dress4.jpg);
+    background-size: cover;
+    margin-right: 10px;
+ }
+ .six{
+    background-image: url(../src/bbags.jpg);
+    background-size: cover;
+    margin-right: 10px;
+ }
+ .seven{
+    background-image: url(../src/skirts.jpg);
+    background-size: cover;
+    margin-right: 10px;
+ }
+ .eight{
+    background-image: url(../src/sshose.jpg);
+    background-size: cover;
+    margin-right: 10px;
+ }
+ .features-3{
+   display: grid;
+   grid-template-columns: 3fr 3fr 3fr 3fr;
+   margin-top: 20px;
+   margin-left: 40px;
+ } 
+ .middle-features{
+   font-size: 13px;
+   margin-top: 8px;
+   margin-bottom: 5px;
+   font-family: arial;
+ }
+ .b{
+   color: gray;
+ }
+ .more{
+   margin-top: 80px;
+   margin-bottom: 30px;
+   margin-left: 45%;
+   margin-right: 30px;
+   height: 100px;
+   font-size: 15px;
+ }
+ .features-4{
+   height: 300px;
+   display: grid;
+   grid-template-columns:5fr 7fr ;
+   background-color: rgb(239, 237, 237);
+ }
+ .offer-image{
+   background-image: url(../src/sandel1.jpg.png);
+   background-size: cover;
+ }
+ .off{
+   margin-top: 60px;
+   margin-left: 39%;
+ }
+ .off div{
+   padding: 1px;
+ }
+ .time-limit{
+   margin-left:39% ;
+   font-size: 30px;
+   color: gray;
+   margin-top: 25px;
+ }
+ .remaning-day{
+   margin-left:39% ;
+
+ }
+ .remaning-day span{ 
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 10px;
+ }
+ .arrow{
+   background-color: #010101;
+   color: white;
+   margin-left: 39%;
+   margin-top: 50px;
+   height: 25px;
+   width: 100px;
+ }
+ .features-5{
+   height: 400px;
+   background-color: rgb(236, 235, 232);
+ }
+ .top-5{
+   margin-left: 45%;
+ }
+ .top-5{
+   margin-top: 50px;
+ }
+ .top-shopper{
+   font-size: 30px;
+   margin-top: 30px;
+ }
+ .usemethod{
+   margin-top: 10px;
+   margin-left: -10%;
+ }
+ .body-img{
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+   height: 150px;
+   margin-top: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+   
+ }
+ .img1 {
+   background-image:url(../src/shopper1-jpg.jpg);
+   background-size: cover;
+ }
+ .img2{
+   background-image:url(../src/shopper2-jpg.jpg);
+   background-size: cover;
+   margin-left: 5px;
+}
+ .img3{
+   background-image:url(../src/shopper3-jpg.jpg);
+   background-size: cover;
+   margin-left: 5px;
+ }
+ .img4{
+   background-image:url(../src/shopper4-jpg.jpg);
+   background-size: cover;
+   margin-left: 5px;
+ }
+ .img5{
+   background-image:url(../src/shopper5-jpg.jpg);
+   background-size: cover;
+   margin-left: 5px;
+ }
+ .img6{
+   background-image:url(../src/shopper6-jpg.jpg);
+   background-size: cover;
+   margin-left: 5px;
+ }
+ footer{
+   height: 450px;
+   background: #010101;
+   position: relative;
+ }
+ .footer-section{
+   height: 400px;
+   margin: 25px;
+   position: absolute;
+   width: 90%;
+   margin-left: 5%;
+ }
+ .section-top{
+   margin-top: 20px;
+   margin-left: 40%;
+   position: absolute;
+   color: white;
+ }
+ .section-middel{
+   position: relative;
+   margin-right: 20%;
+ }
+ .section-middel input{
+   color: white;
+   font-size: 20px;
+   height: 30px;
+   margin-left:40% ;
+   width: 200px;
+   margin-top: 80px;
+   position: absolute;
+   background-color:rgba(128, 128, 128, 0.281);
+ }
+ .section-middel button{
+   color: white;
+   margin-left: 65%;
+  position: absolute;
+  margin-top: 80px;
+  font-size: 20px;
+  background-color: gray;
+ }
+ .section-bottom{
+   display: grid;
+   grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
+   margin-top: 20%;
+   color: white;
+   font-family: arial;
+   font-size: 12px;
+ }
+ .contact{
+   margin-left: 80px;
+ }
+ .fshopper{
+   margin-left: 30px;
+ }
+ .section-bottom div{
+   padding: 4px;
+ }
+ .ftitel{
+   font-size: 25px;
+   margin-top: 11px;
+   margin-bottom: 12px;
+   font-family: arial;
+   margin-right: 3%;
+ }
+ .icon span{
+   padding: 5px;
+   font-size: 20px;
+   
+ }
